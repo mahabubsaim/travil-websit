@@ -1,3 +1,41 @@
-.section-title{
+{
+    background-image: url(Rectangle 5.png);
+}
+.section, img{
     display: flex;
+    width: 48px;
+    height: 56.008px;
+    flex-shrink: 0;
+    
+}
+nav{
+    background-color: aliceblue;
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.home > ul{
+    display: flex;
+}
+.home li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.contant{
+    text-align: center;
+}
+.discripstion{
+    text-align: center;
+}
+div{
+    display: flex;
+    gap: 10px;
+    padding: 0 ;
+}
+@media screen and (max-width:600px){
+    
+    
 }
